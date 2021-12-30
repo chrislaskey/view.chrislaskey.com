@@ -1,0 +1,42 @@
+/* Mobile
+======================================================================================================*/
+div#window{
+	height:415px;
+	overflow:auto !important;
+	position:relative;
+	width:100%;
+	z-index:1;
+}
+	
+	a.image_hover_previous,
+	a.image_hover_next{
+		display:none !important;
+	}
+	
+	a.content_previous,
+	a.content_next{
+		font:38px/28px Helvetica, Arial, sans-serif;
+		padding:0px 20px 0px 20px;
+	}
+	
+	a.content_filter{
+		font:16px/20px Helvetica, Arial, sans-serif;
+		padding:5px 40px 0px 0px;
+	}
+	
+	div.content_progress_container{
+		padding:5px 0px 0px 0px;
+	}
+		
+		input.content_progress{
+			font:16px/20px Helvetica, Arial, sans-serif;
+		}
+		
+		div.content_total{
+			font:16px/20px Helvetica, Arial, sans-serif;
+		}
+	
+	a.set_preview{
+		font:16px/20px Helvetica, Arial, sans-serif;
+		padding:5px 40px 0px 0px;
+	}

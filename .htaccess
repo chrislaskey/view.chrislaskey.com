@@ -1,0 +1,9 @@
+Options -Indexes
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|images|robots\.txt|files|sitemap\.xml)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+#Maintenance
+#RewriteCond $1 !^(index\.html)
+#RewriteRule ^(.*)$ /index.html [L]
